@@ -1,13 +1,15 @@
+#include "Animal.h"
 #ifndef MAMMAL_H
 #define MAMMAL_H
-
-#include "Animal.h"
-
-//define mammal class here
-
-
-
-
-
-
+class Mammal:Class Animal{
+    private:
+    string furColor
+    public:
+    Mammal();
+    Mammal(string n , int a, bool I,string f);
+    ~Mammal();
+    
+    
+    
+};
 #endif
